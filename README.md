@@ -62,7 +62,7 @@ TEST_URL=http://127.0.0.1:8767/ node scripts/verify-browser.cjs delivery
 2026-11-17 发布完成。应用代码版本 `c62b1a1`；后续提交只补充验收及发布记录。
 
 - GitHub：[MOCCMO/vr-ppt](https://github.com/MOCCMO/vr-ppt)，`main` 已同步。
-- Vercel：[备用入口](https://vr-ppt-theta.vercel.app/)，沿用 `vr-ppt` 项目；生产部署 `dpl_8sqCMcpb4C5b3bKztAPWr9tnUSJw` 为 READY。
+- Vercel：[备用入口](https://vr-ppt-theta.vercel.app/)，沿用 `vr-ppt` 项目；本版首次生产部署 `dpl_8sqCMcpb4C5b3bKztAPWr9tnUSJw` 为 READY；后续文档提交会触发同一成品的自动部署。
 - CloudBase：[国内入口](https://season-quest-d1g08nncm027cf211-1465578399.tcloudbaseapp.com/)，沿用上海体验环境 `season-quest-d1g08nncm027cf211`；274 个文件上传成功，发布一致性校验通过。旧课堂的两份入口脚本/样式已撤下，平台认证目录保留。
 - 邮件：国内链接、首次访问说明和备用入口已发送至用户指定学习邮箱，发送服务已返回 SENT。
 - Colab：两个临时任务均已结束；余额由 199.76 降至 198.34，当前无运行任务，无充值。
