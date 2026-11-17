@@ -1,38 +1,23 @@
-export type SeasonId = 'spring' | 'summer' | 'autumn' | 'winter';
-export type MissionId = SeasonId | 'final';
-export type ViewId = 'cover' | 'map' | MissionId;
-
-export interface MissionReport {
-  stars: number;
-  mistakes: string[];
-  attempts: number;
-  correct: number;
+export type SeasonId = 'winter' | 'spring' | 'summer' | 'autumn';
+export type Page = 'case' | 'journey' | 'guide' | 'reflection';
+export type Lens = 'rhyme' | 'images' | 'language' | 'feeling';
+export type Evidence = Record<string, boolean>;
+export interface Choice { question: string; options: string[]; answer: number; explanation: string; }
+export interface Season {
+  id: SeasonId; name: string; chinese: string; subtitle: string; color: string; pages: number[];
+  heading: string; poem: string[]; translations: string[]; pauses: string[];
+  rhymes: { word: string; partner: string; note?: string }[];
+  images: { category: string; answer: string; choices: string[] }[];
+  language: Choice; feeling: Choice;
+  hotspots: { word: string; translation: string; line: number; angle: number; elevation: number }[];
+  guide: string[];
 }
-
-export interface MissionProgress extends MissionReport {
-  completed: boolean;
-}
-
-export type Progress = Record<MissionId, MissionProgress>;
-
-export interface MissionProps {
-  onComplete: (report: MissionReport) => void;
-  onBack: () => void;
-  onNext: () => void;
-  speak: (text: string) => void;
-  playEffect: (kind: 'correct' | 'wrong' | 'complete') => void;
-  completed: boolean;
-}
-
-export interface SeasonMeta {
-  id: SeasonId;
-  name: string;
-  english: string;
-  mission: string;
-  missionEn: string;
-  description: string;
-  color: string;
-  softColor: string;
-  weather: string;
-  sentence: string;
+export interface AudioController {
+  playing: string | null;
+  level: number;
+  currentTime: number;
+  duration: number;
+  play: (key: string) => void;
+  stop: () => void;
+  error: string;
 }

@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-17T09:27:42.071Z",
+  "base": "http://127.0.0.1:8767/",
+  "browser": "157.0.8103.79",
+  "source": "11.17 seasons-1.pptx",
+  "sourceSha256": "8a288a90411da894359cb80c9a8d361f669f32d00e5ef7816eeba1fad9c75e26",
+  "status": "passed",
+  "results": [
+    {
+      "name": "Built delivery playback",
+      "status": "pass",
+      "detail": "Packaged slide, Judy audio, actual fullscreen and original video played through standalone server"
+    },
+    {
+      "name": "Microphone rejection",
+      "status": "pass",
+      "detail": "Clear feedback; text editing and download remain usable"
+    },
+    {
+      "name": "Lazy scene bundle",
+      "status": "pass",
+      "detail": "Optional panorama loads from packaged relative assets"
+    },
+    {
+      "name": "Unavailable WebGL and storage",
+      "status": "pass",
+      "detail": "Static scenery and clickable poem clues remain usable; lesson opens without persistent storage"
+    },
+    {
+      "name": "Browser health",
+      "status": "pass",
+      "detail": "No uncaught page errors or HTTP failures"
+    }
+  ],
+  "errors": [],
+  "failedRequests": []
+}

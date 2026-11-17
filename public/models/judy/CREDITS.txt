@@ -1,0 +1,14 @@
+Judy Hopps classroom model
+
+Original model: J.C. Thornton, Judy Hopps V3.
+Source: https://www.patreon.com/jcthornton/posts/3d-model-judy-22565107
+Character: Judy Hopps / Zootopia © Disney.
+
+Classroom adaptation: police outfit selection, native iris UV preservation,
+web materials, optimized textures, facial control selection, standing pose,
+live bone movement and speech-driven visemes. Original source files are
+preserved outside the web delivery. This credit is not a new license grant.
+
+Voice: Qwen3-TTS synthetic voice design, approved by the user through an
+English opening sample; subsequent speech uses that generated reference.
+It does not use a movie audio clip or the actor's recorded voice.

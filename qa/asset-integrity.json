@@ -1,0 +1,656 @@
+{
+  "checkedAt": "2026-11-17T09:26:28.864326+00:00",
+  "source": "11.17 seasons-1.pptx",
+  "sha256": "8a288a90411da894359cb80c9a8d361f669f32d00e5ef7816eeba1fad9c75e26",
+  "sourceUnmodified": true,
+  "slides": 22,
+  "frames": 131,
+  "audioFiles": 61,
+  "videoFiles": 2,
+  "modelBytes": 7312688,
+  "modelSkinJoints": 114,
+  "media": [
+    {
+      "file": "audio/judy-en/autumn-0.mp3",
+      "seconds": 1.84,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/autumn-1.mp3",
+      "seconds": 2.0,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/autumn-2.mp3",
+      "seconds": 2.0,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/autumn-3.mp3",
+      "seconds": 2.96,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/autumn-4.mp3",
+      "seconds": 2.0,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/autumn-5.mp3",
+      "seconds": 2.0,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/autumn.mp3",
+      "seconds": 11.92,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/guide-autumn.mp3",
+      "seconds": 6.8,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/guide-spring.mp3",
+      "seconds": 6.72,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/guide-summer.mp3",
+      "seconds": 8.56,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/guide-winter.mp3",
+      "seconds": 8.48,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/judy-01.mp3",
+      "seconds": 14.536875,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/judy-02.mp3",
+      "seconds": 10.48,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/judy-03.mp3",
+      "seconds": 11.04,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/judy-04.mp3",
+      "seconds": 8.0,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/judy-05.mp3",
+      "seconds": 10.4,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/judy-06.mp3",
+      "seconds": 10.0,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/judy-07.mp3",
+      "seconds": 6.8,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/judy-08.mp3",
+      "seconds": 10.56,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/judy-09.mp3",
+      "seconds": 10.72,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/judy-10.mp3",
+      "seconds": 6.32,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/judy-11.mp3",
+      "seconds": 12.32,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/judy-12.mp3",
+      "seconds": 11.76,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/judy-13.mp3",
+      "seconds": 7.12,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/judy-14.mp3",
+      "seconds": 10.640042,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/judy-15.mp3",
+      "seconds": 11.76,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/judy-16.mp3",
+      "seconds": 8.56,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/judy-17.mp3",
+      "seconds": 10.640042,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/judy-18.mp3",
+      "seconds": 13.6,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/judy-19.mp3",
+      "seconds": 10.72,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/judy-20.mp3",
+      "seconds": 11.36,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/judy-21.mp3",
+      "seconds": 9.2,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/judy-22.mp3",
+      "seconds": 11.44,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/spring-0.mp3",
+      "seconds": 2.48,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/spring-1.mp3",
+      "seconds": 2.08,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/spring-2.mp3",
+      "seconds": 2.8,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/spring-3.mp3",
+      "seconds": 2.08,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/spring.mp3",
+      "seconds": 9.84,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/summer-0.mp3",
+      "seconds": 2.32,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/summer-1.mp3",
+      "seconds": 2.64,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/summer-2.mp3",
+      "seconds": 1.6,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/summer-3.mp3",
+      "seconds": 2.24,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/summer.mp3",
+      "seconds": 8.48,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/winter-0.mp3",
+      "seconds": 1.6,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/winter-1.mp3",
+      "seconds": 2.88,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/winter-2.mp3",
+      "seconds": 1.92,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/winter-3.mp3",
+      "seconds": 2.0,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/winter.mp3",
+      "seconds": 7.84,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/word-as.mp3",
+      "seconds": 0.64,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/word-crop.mp3",
+      "seconds": 2.0,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/word-harvest.mp3",
+      "seconds": 0.88,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/word-hide.mp3",
+      "seconds": 0.64,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/word-lazy.mp3",
+      "seconds": 0.96,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/word-memory.mp3",
+      "seconds": 1.04,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/word-pile.mp3",
+      "seconds": 0.8,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/word-pool.mp3",
+      "seconds": 1.6,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/word-shade.mp3",
+      "seconds": 0.8,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/word-shower.mp3",
+      "seconds": 0.88,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/word-stream.mp3",
+      "seconds": 0.8,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/word-temperature.mp3",
+      "seconds": 1.04,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "audio/judy-en/word-upon.mp3",
+      "seconds": 1.04,
+      "streams": [
+        {
+          "codec_name": "mp3",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "media/autumn.mp4",
+      "seconds": 7.071995,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ]
+    },
+    {
+      "file": "media/spring.mp4",
+      "seconds": 8.063991,
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio"
+        }
+      ]
+    }
+  ]
+}

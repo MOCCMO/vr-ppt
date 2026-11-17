@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "url": "http://127.0.0.1:5173/#/lesson/6",
+  "model": {
+    "viseme": "X",
+    "yaw": "0.100",
+    "mouth": "0.00",
+    "blink": "0.00",
+    "modelLoaded": "true",
+    "morphMeshes": "8",
+    "animatedBones": "5"
+  },
+  "visemes": [
+    "C",
+    "F",
+    "B",
+    "D",
+    "A",
+    "E"
+  ],
+  "checks": [
+    "loaded full-body skin and morphs",
+    "actual narration progresses",
+    "phonetic visemes update",
+    "pause returns neutral",
+    "drag rotates without playing",
+    "keyboard starts speech",
+    "mute stops audio",
+    "page follow starts next audio",
+    "390px no horizontal overflow"
+  ],
+  "errors": [],
+  "failedRequests": []
+}

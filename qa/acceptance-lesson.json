@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-17T09:26:01.169Z",
+  "base": "http://127.0.0.1:5173/",
+  "browser": "157.0.8103.79",
+  "source": "11.17 seasons-1.pptx",
+  "sourceSha256": "8a288a90411da894359cb80c9a8d361f669f32d00e5ef7816eeba1fad9c75e26",
+  "status": "passed",
+  "results": [
+    {
+      "name": "Original course traversal",
+      "status": "pass",
+      "detail": "22 pages / 131 source frames rendered; final step returned home"
+    },
+    {
+      "name": "Season portals",
+      "status": "pass",
+      "detail": "Winter 5 → Spring 8 → Summer 11 → Autumn 14"
+    },
+    {
+      "name": "Original map hotspots",
+      "status": "pass",
+      "detail": "All four islands navigate to the source lesson"
+    },
+    {
+      "name": "Presentation controls",
+      "status": "pass",
+      "detail": "Click, left/right keyboard, reset, full slide, persisted steps, focus and Escape"
+    },
+    {
+      "name": "Judy voice guide",
+      "status": "pass",
+      "detail": "Actual audio progressed, phonetic mouth shapes, bilingual text, mute and page-follow verified"
+    },
+    {
+      "name": "Original video P9",
+      "status": "pass",
+      "detail": "{\"duration\":8.063991,\"width\":1280,\"height\":720,\"captions\":1}"
+    },
+    {
+      "name": "Original video P15",
+      "status": "pass",
+      "detail": "{\"duration\":7.071995,\"width\":1280,\"height\":720,\"captions\":1}"
+    },
+    {
+      "name": "Course catalog",
+      "status": "pass",
+      "detail": "22 thumbnails; Escape closes modal"
+    },
+    {
+      "name": "Browser health",
+      "status": "pass",
+      "detail": "No uncaught page errors or HTTP failures"
+    }
+  ],
+  "errors": [],
+  "failedRequests": []
+}

@@ -1,0 +1,446 @@
+{
+  "source": "11.17 seasons-1.pptx",
+  "sha256": "8a288a90411da894359cb80c9a8d361f669f32d00e5ef7816eeba1fad9c75e26",
+  "slideCount": 22,
+  "frameCount": 131,
+  "slides": [
+    {
+      "page": 1,
+      "frames": [
+        "ppt-frames/01-00.webp"
+      ],
+      "mapHotspots": [],
+      "videoRect": null,
+      "videoFrom": null
+    },
+    {
+      "page": 2,
+      "frames": [
+        "ppt-frames/02-00.webp"
+      ],
+      "mapHotspots": [],
+      "videoRect": null,
+      "videoFrom": null
+    },
+    {
+      "page": 3,
+      "frames": [
+        "ppt-frames/03-00.webp",
+        "ppt-frames/03-01.webp",
+        "ppt-frames/03-02.webp",
+        "ppt-frames/03-03.webp",
+        "ppt-frames/03-04.webp",
+        "ppt-frames/03-05.webp",
+        "ppt-frames/03-06.webp",
+        "ppt-frames/03-07.webp",
+        "ppt-frames/03-08.webp",
+        "ppt-frames/03-09.webp",
+        "ppt-frames/03-10.webp"
+      ],
+      "mapHotspots": [],
+      "videoRect": null,
+      "videoFrom": null
+    },
+    {
+      "page": 4,
+      "frames": [
+        "ppt-frames/04-00.webp"
+      ],
+      "mapHotspots": [
+        {
+          "season": "autumn",
+          "x": 79.09895833333334,
+          "y": -2.194444444444444,
+          "w": 10.666666666666668,
+          "h": 33.69444444444444
+        },
+        {
+          "season": "spring",
+          "x": 21.833333333333332,
+          "y": 14.129629629629632,
+          "w": 16.177083333333332,
+          "h": 21.02777777777778
+        },
+        {
+          "season": "summer",
+          "x": 42.46875,
+          "y": 61.38888888888889,
+          "w": 21.984375,
+          "h": 21.99074074074074
+        },
+        {
+          "season": "winter",
+          "x": 6.614583333333333,
+          "y": 75.87962962962963,
+          "w": 13.682291666666666,
+          "h": 19.925925925925924
+        }
+      ],
+      "videoRect": null,
+      "videoFrom": null
+    },
+    {
+      "page": 5,
+      "frames": [
+        "ppt-frames/05-00.webp",
+        "ppt-frames/05-01.webp",
+        "ppt-frames/05-02.webp",
+        "ppt-frames/05-03.webp",
+        "ppt-frames/05-04.webp",
+        "ppt-frames/05-05.webp",
+        "ppt-frames/05-06.webp",
+        "ppt-frames/05-07.webp",
+        "ppt-frames/05-08.webp",
+        "ppt-frames/05-09.webp",
+        "ppt-frames/05-10.webp"
+      ],
+      "mapHotspots": [],
+      "videoRect": null,
+      "videoFrom": null
+    },
+    {
+      "page": 6,
+      "frames": [
+        "ppt-frames/06-00.webp",
+        "ppt-frames/06-01.webp",
+        "ppt-frames/06-02.webp",
+        "ppt-frames/06-03.webp",
+        "ppt-frames/06-04.webp",
+        "ppt-frames/06-05.webp"
+      ],
+      "mapHotspots": [],
+      "videoRect": null,
+      "videoFrom": null
+    },
+    {
+      "page": 7,
+      "frames": [
+        "ppt-frames/07-00.webp"
+      ],
+      "mapHotspots": [
+        {
+          "season": "autumn",
+          "x": 82.30151738845144,
+          "y": 4.9064741907261595,
+          "w": 6.6515009842519675,
+          "h": 21.004651501895598
+        },
+        {
+          "season": "spring",
+          "x": 26.192659120734906,
+          "y": 19.796937882764652,
+          "w": 11.81988188976378,
+          "h": 15.357451151939342
+        },
+        {
+          "season": "summer",
+          "x": 47.03804133858267,
+          "y": 61.388363954505685,
+          "w": 17.416945538057742,
+          "h": 17.416943715368912
+        },
+        {
+          "season": "winter",
+          "x": 6.61113845144357,
+          "y": 75.87669874599008,
+          "w": 12.667905183727035,
+          "h": 18.440886555847186
+        }
+      ],
+      "videoRect": null,
+      "videoFrom": null
+    },
+    {
+      "page": 8,
+      "frames": [
+        "ppt-frames/08-00.webp",
+        "ppt-frames/08-01.webp",
+        "ppt-frames/08-02.webp",
+        "ppt-frames/08-03.webp",
+        "ppt-frames/08-04.webp",
+        "ppt-frames/08-05.webp",
+        "ppt-frames/08-06.webp",
+        "ppt-frames/08-07.webp",
+        "ppt-frames/08-08.webp"
+      ],
+      "mapHotspots": [],
+      "videoRect": null,
+      "videoFrom": null
+    },
+    {
+      "page": 9,
+      "frames": [
+        "ppt-frames/09-00.webp",
+        "ppt-frames/09-01.webp",
+        "ppt-frames/09-02.webp",
+        "ppt-frames/09-03.webp",
+        "ppt-frames/09-04.webp",
+        "ppt-frames/09-05.webp"
+      ],
+      "mapHotspots": [],
+      "videoRect": {
+        "x": 47.088541666666664,
+        "y": 22.01851851851852,
+        "w": 45.916666666666664,
+        "h": 43.657407407407405
+      },
+      "videoFrom": 2
+    },
+    {
+      "page": 10,
+      "frames": [
+        "ppt-frames/10-00.webp"
+      ],
+      "mapHotspots": [
+        {
+          "season": "autumn",
+          "x": 82.30151738845144,
+          "y": 4.9064741907261595,
+          "w": 6.6515009842519675,
+          "h": 21.004651501895598
+        },
+        {
+          "season": "spring",
+          "x": 26.192659120734906,
+          "y": 19.796937882764652,
+          "w": 11.81988188976378,
+          "h": 15.357451151939342
+        },
+        {
+          "season": "summer",
+          "x": 47.03804133858267,
+          "y": 61.388363954505685,
+          "w": 17.416945538057742,
+          "h": 17.416943715368912
+        },
+        {
+          "season": "winter",
+          "x": 6.61113845144357,
+          "y": 75.87669874599008,
+          "w": 12.667905183727035,
+          "h": 18.440886555847186
+        }
+      ],
+      "videoRect": null,
+      "videoFrom": null
+    },
+    {
+      "page": 11,
+      "frames": [
+        "ppt-frames/11-00.webp",
+        "ppt-frames/11-01.webp",
+        "ppt-frames/11-02.webp",
+        "ppt-frames/11-03.webp",
+        "ppt-frames/11-04.webp",
+        "ppt-frames/11-05.webp",
+        "ppt-frames/11-06.webp",
+        "ppt-frames/11-07.webp",
+        "ppt-frames/11-08.webp",
+        "ppt-frames/11-09.webp"
+      ],
+      "mapHotspots": [],
+      "videoRect": null,
+      "videoFrom": null
+    },
+    {
+      "page": 12,
+      "frames": [
+        "ppt-frames/12-00.webp",
+        "ppt-frames/12-01.webp",
+        "ppt-frames/12-02.webp",
+        "ppt-frames/12-03.webp",
+        "ppt-frames/12-04.webp",
+        "ppt-frames/12-05.webp",
+        "ppt-frames/12-06.webp",
+        "ppt-frames/12-07.webp",
+        "ppt-frames/12-08.webp",
+        "ppt-frames/12-09.webp"
+      ],
+      "mapHotspots": [],
+      "videoRect": null,
+      "videoFrom": null
+    },
+    {
+      "page": 13,
+      "frames": [
+        "ppt-frames/13-00.webp"
+      ],
+      "mapHotspots": [
+        {
+          "season": "autumn",
+          "x": 80.22140748031497,
+          "y": 3.7870807815689704,
+          "w": 6.6515009842519675,
+          "h": 21.004651501895598
+        },
+        {
+          "season": "spring",
+          "x": 26.192659120734906,
+          "y": 19.796937882764652,
+          "w": 11.81988188976378,
+          "h": 15.357451151939342
+        },
+        {
+          "season": "summer",
+          "x": 47.03804133858267,
+          "y": 61.388363954505685,
+          "w": 17.416945538057742,
+          "h": 17.416943715368912
+        },
+        {
+          "season": "winter",
+          "x": 6.61113845144357,
+          "y": 75.87669874599008,
+          "w": 12.667905183727035,
+          "h": 18.440886555847186
+        }
+      ],
+      "videoRect": null,
+      "videoFrom": null
+    },
+    {
+      "page": 14,
+      "frames": [
+        "ppt-frames/14-00.webp",
+        "ppt-frames/14-01.webp",
+        "ppt-frames/14-02.webp",
+        "ppt-frames/14-03.webp",
+        "ppt-frames/14-04.webp",
+        "ppt-frames/14-05.webp",
+        "ppt-frames/14-06.webp",
+        "ppt-frames/14-07.webp",
+        "ppt-frames/14-08.webp",
+        "ppt-frames/14-09.webp",
+        "ppt-frames/14-10.webp",
+        "ppt-frames/14-11.webp"
+      ],
+      "mapHotspots": [],
+      "videoRect": null,
+      "videoFrom": null
+    },
+    {
+      "page": 15,
+      "frames": [
+        "ppt-frames/15-00.webp",
+        "ppt-frames/15-01.webp",
+        "ppt-frames/15-02.webp",
+        "ppt-frames/15-03.webp",
+        "ppt-frames/15-04.webp",
+        "ppt-frames/15-05.webp",
+        "ppt-frames/15-06.webp",
+        "ppt-frames/15-07.webp",
+        "ppt-frames/15-08.webp",
+        "ppt-frames/15-09.webp",
+        "ppt-frames/15-10.webp",
+        "ppt-frames/15-11.webp",
+        "ppt-frames/15-12.webp"
+      ],
+      "mapHotspots": [],
+      "videoRect": {
+        "x": 62.53125000000001,
+        "y": 22.62962962962963,
+        "w": 33.234375,
+        "h": 35.78703703703704
+      },
+      "videoFrom": 6
+    },
+    {
+      "page": 16,
+      "frames": [
+        "ppt-frames/16-00.webp",
+        "ppt-frames/16-01.webp"
+      ],
+      "mapHotspots": [],
+      "videoRect": null,
+      "videoFrom": null
+    },
+    {
+      "page": 17,
+      "frames": [
+        "ppt-frames/17-00.webp",
+        "ppt-frames/17-01.webp",
+        "ppt-frames/17-02.webp",
+        "ppt-frames/17-03.webp",
+        "ppt-frames/17-04.webp",
+        "ppt-frames/17-05.webp",
+        "ppt-frames/17-06.webp",
+        "ppt-frames/17-07.webp",
+        "ppt-frames/17-08.webp",
+        "ppt-frames/17-09.webp"
+      ],
+      "mapHotspots": [],
+      "videoRect": null,
+      "videoFrom": null
+    },
+    {
+      "page": 18,
+      "frames": [
+        "ppt-frames/18-00.webp",
+        "ppt-frames/18-01.webp"
+      ],
+      "mapHotspots": [],
+      "videoRect": null,
+      "videoFrom": null
+    },
+    {
+      "page": 19,
+      "frames": [
+        "ppt-frames/19-00.webp",
+        "ppt-frames/19-01.webp",
+        "ppt-frames/19-02.webp",
+        "ppt-frames/19-03.webp",
+        "ppt-frames/19-04.webp",
+        "ppt-frames/19-05.webp",
+        "ppt-frames/19-06.webp",
+        "ppt-frames/19-07.webp",
+        "ppt-frames/19-08.webp",
+        "ppt-frames/19-09.webp",
+        "ppt-frames/19-10.webp"
+      ],
+      "mapHotspots": [],
+      "videoRect": null,
+      "videoFrom": null
+    },
+    {
+      "page": 20,
+      "frames": [
+        "ppt-frames/20-00.webp",
+        "ppt-frames/20-01.webp",
+        "ppt-frames/20-02.webp",
+        "ppt-frames/20-03.webp",
+        "ppt-frames/20-04.webp",
+        "ppt-frames/20-05.webp"
+      ],
+      "mapHotspots": [],
+      "videoRect": null,
+      "videoFrom": null
+    },
+    {
+      "page": 21,
+      "frames": [
+        "ppt-frames/21-00.webp",
+        "ppt-frames/21-01.webp"
+      ],
+      "mapHotspots": [],
+      "videoRect": null,
+      "videoFrom": null
+    },
+    {
+      "page": 22,
+      "frames": [
+        "ppt-frames/22-00.webp",
+        "ppt-frames/22-01.webp",
+        "ppt-frames/22-02.webp",
+        "ppt-frames/22-03.webp"
+      ],
+      "mapHotspots": [],
+      "videoRect": null,
+      "videoFrom": null
+    }
+  ],
+  "renderNotes": [
+    "Entrance and exit objects preserve source click order.",
+    "Movement, emphasis and transitions use discrete page states.",
+    "Auto-size map season labels expanded in rendering copy to prevent LibreOffice wrapping; source file untouched."
+  ]
+}

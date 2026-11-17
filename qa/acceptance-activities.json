@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-17T09:26:46.596Z",
+  "base": "http://127.0.0.1:5173/",
+  "browser": "157.0.8103.79",
+  "source": "11.17 seasons-1.pptx",
+  "sourceSha256": "8a288a90411da894359cb80c9a8d361f669f32d00e5ef7816eeba1fad9c75e26",
+  "status": "passed",
+  "results": [
+    {
+      "name": "Vocabulary",
+      "status": "pass",
+      "detail": "13 source words; selection, meaning and local pronunciation request"
+    },
+    {
+      "name": "Cloze",
+      "status": "pass",
+      "detail": "Wrong answer feedback, all 8 correct answers and persisted selections"
+    },
+    {
+      "name": "Recording",
+      "status": "pass",
+      "detail": "Fake microphone only: 25171 bytes, audio/webm;codecs=opus; playable result and download"
+    },
+    {
+      "name": "Recording lifecycle",
+      "status": "pass",
+      "detail": "Draft and recording survive reopening; browser route change closes activity and stops capture"
+    },
+    {
+      "name": "Source homework",
+      "status": "pass",
+      "detail": "Editable reflection and poem; successful text export"
+    },
+    {
+      "name": "Optional panorama",
+      "status": "pass",
+      "detail": "WebGL scene loaded, view navigation, hotspot and zoom; no headset connected"
+    },
+    {
+      "name": "Browser health",
+      "status": "pass",
+      "detail": "No uncaught page errors or HTTP failures"
+    }
+  ],
+  "errors": [],
+  "failedRequests": []
+}

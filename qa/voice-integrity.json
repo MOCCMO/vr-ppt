@@ -1,0 +1,375 @@
+{
+  "voice": "User-approved synthetic English direction; not original film actor audio",
+  "clips": [
+    {
+      "key": "autumn",
+      "duration": 11.92,
+      "bytes": 191661,
+      "mouthCues": 82
+    },
+    {
+      "key": "autumn-0",
+      "duration": 1.84,
+      "bytes": 30381,
+      "mouthCues": 13
+    },
+    {
+      "key": "autumn-1",
+      "duration": 2.0,
+      "bytes": 33069,
+      "mouthCues": 11
+    },
+    {
+      "key": "autumn-2",
+      "duration": 2.0,
+      "bytes": 33069,
+      "mouthCues": 21
+    },
+    {
+      "key": "autumn-3",
+      "duration": 2.96,
+      "bytes": 48429,
+      "mouthCues": 18
+    },
+    {
+      "key": "autumn-4",
+      "duration": 2.0,
+      "bytes": 33069,
+      "mouthCues": 18
+    },
+    {
+      "key": "autumn-5",
+      "duration": 2.0,
+      "bytes": 33069,
+      "mouthCues": 8
+    },
+    {
+      "key": "guide-autumn",
+      "duration": 6.8,
+      "bytes": 109869,
+      "mouthCues": 41
+    },
+    {
+      "key": "guide-spring",
+      "duration": 6.72,
+      "bytes": 108333,
+      "mouthCues": 51
+    },
+    {
+      "key": "guide-summer",
+      "duration": 8.56,
+      "bytes": 137901,
+      "mouthCues": 65
+    },
+    {
+      "key": "guide-winter",
+      "duration": 8.48,
+      "bytes": 136749,
+      "mouthCues": 58
+    },
+    {
+      "key": "judy-01",
+      "duration": 14.536875,
+      "bytes": 233517,
+      "mouthCues": 72
+    },
+    {
+      "key": "judy-02",
+      "duration": 10.48,
+      "bytes": 168621,
+      "mouthCues": 66
+    },
+    {
+      "key": "judy-03",
+      "duration": 11.04,
+      "bytes": 177453,
+      "mouthCues": 57
+    },
+    {
+      "key": "judy-04",
+      "duration": 8.0,
+      "bytes": 129069,
+      "mouthCues": 50
+    },
+    {
+      "key": "judy-05",
+      "duration": 10.4,
+      "bytes": 167469,
+      "mouthCues": 66
+    },
+    {
+      "key": "judy-06",
+      "duration": 10.0,
+      "bytes": 160941,
+      "mouthCues": 60
+    },
+    {
+      "key": "judy-07",
+      "duration": 6.8,
+      "bytes": 109869,
+      "mouthCues": 41
+    },
+    {
+      "key": "judy-08",
+      "duration": 10.56,
+      "bytes": 169773,
+      "mouthCues": 59
+    },
+    {
+      "key": "judy-09",
+      "duration": 10.72,
+      "bytes": 172461,
+      "mouthCues": 59
+    },
+    {
+      "key": "judy-10",
+      "duration": 6.32,
+      "bytes": 102189,
+      "mouthCues": 39
+    },
+    {
+      "key": "judy-11",
+      "duration": 12.32,
+      "bytes": 198189,
+      "mouthCues": 72
+    },
+    {
+      "key": "judy-12",
+      "duration": 11.76,
+      "bytes": 188973,
+      "mouthCues": 76
+    },
+    {
+      "key": "judy-13",
+      "duration": 7.12,
+      "bytes": 114861,
+      "mouthCues": 51
+    },
+    {
+      "key": "judy-14",
+      "duration": 10.640042,
+      "bytes": 171309,
+      "mouthCues": 71
+    },
+    {
+      "key": "judy-15",
+      "duration": 11.76,
+      "bytes": 188973,
+      "mouthCues": 70
+    },
+    {
+      "key": "judy-16",
+      "duration": 8.56,
+      "bytes": 137901,
+      "mouthCues": 47
+    },
+    {
+      "key": "judy-17",
+      "duration": 10.640042,
+      "bytes": 171309,
+      "mouthCues": 68
+    },
+    {
+      "key": "judy-18",
+      "duration": 13.6,
+      "bytes": 218541,
+      "mouthCues": 80
+    },
+    {
+      "key": "judy-19",
+      "duration": 10.72,
+      "bytes": 172461,
+      "mouthCues": 67
+    },
+    {
+      "key": "judy-20",
+      "duration": 11.36,
+      "bytes": 182829,
+      "mouthCues": 72
+    },
+    {
+      "key": "judy-21",
+      "duration": 9.2,
+      "bytes": 148269,
+      "mouthCues": 65
+    },
+    {
+      "key": "judy-22",
+      "duration": 11.44,
+      "bytes": 183981,
+      "mouthCues": 75
+    },
+    {
+      "key": "spring",
+      "duration": 9.84,
+      "bytes": 158253,
+      "mouthCues": 71
+    },
+    {
+      "key": "spring-0",
+      "duration": 2.48,
+      "bytes": 40749,
+      "mouthCues": 22
+    },
+    {
+      "key": "spring-1",
+      "duration": 2.08,
+      "bytes": 34221,
+      "mouthCues": 17
+    },
+    {
+      "key": "spring-2",
+      "duration": 2.8,
+      "bytes": 45741,
+      "mouthCues": 24
+    },
+    {
+      "key": "spring-3",
+      "duration": 2.08,
+      "bytes": 34221,
+      "mouthCues": 14
+    },
+    {
+      "key": "summer",
+      "duration": 8.48,
+      "bytes": 136749,
+      "mouthCues": 50
+    },
+    {
+      "key": "summer-0",
+      "duration": 2.32,
+      "bytes": 38061,
+      "mouthCues": 20
+    },
+    {
+      "key": "summer-1",
+      "duration": 2.64,
+      "bytes": 43053,
+      "mouthCues": 16
+    },
+    {
+      "key": "summer-2",
+      "duration": 1.6,
+      "bytes": 26541,
+      "mouthCues": 7
+    },
+    {
+      "key": "summer-3",
+      "duration": 2.24,
+      "bytes": 36909,
+      "mouthCues": 12
+    },
+    {
+      "key": "winter",
+      "duration": 7.84,
+      "bytes": 126381,
+      "mouthCues": 55
+    },
+    {
+      "key": "winter-0",
+      "duration": 1.6,
+      "bytes": 26541,
+      "mouthCues": 14
+    },
+    {
+      "key": "winter-1",
+      "duration": 2.88,
+      "bytes": 46893,
+      "mouthCues": 16
+    },
+    {
+      "key": "winter-2",
+      "duration": 1.92,
+      "bytes": 31533,
+      "mouthCues": 16
+    },
+    {
+      "key": "winter-3",
+      "duration": 2.0,
+      "bytes": 33069,
+      "mouthCues": 21
+    },
+    {
+      "key": "word-as",
+      "duration": 0.64,
+      "bytes": 11181,
+      "mouthCues": 2
+    },
+    {
+      "key": "word-crop",
+      "duration": 2.0,
+      "bytes": 33069,
+      "mouthCues": 21
+    },
+    {
+      "key": "word-harvest",
+      "duration": 0.88,
+      "bytes": 15021,
+      "mouthCues": 7
+    },
+    {
+      "key": "word-hide",
+      "duration": 0.64,
+      "bytes": 11181,
+      "mouthCues": 4
+    },
+    {
+      "key": "word-lazy",
+      "duration": 0.96,
+      "bytes": 16173,
+      "mouthCues": 5
+    },
+    {
+      "key": "word-memory",
+      "duration": 1.04,
+      "bytes": 17709,
+      "mouthCues": 5
+    },
+    {
+      "key": "word-pile",
+      "duration": 0.8,
+      "bytes": 13869,
+      "mouthCues": 5
+    },
+    {
+      "key": "word-pool",
+      "duration": 1.6,
+      "bytes": 26541,
+      "mouthCues": 7
+    },
+    {
+      "key": "word-shade",
+      "duration": 0.8,
+      "bytes": 13869,
+      "mouthCues": 4
+    },
+    {
+      "key": "word-shower",
+      "duration": 0.88,
+      "bytes": 15021,
+      "mouthCues": 7
+    },
+    {
+      "key": "word-stream",
+      "duration": 0.8,
+      "bytes": 13869,
+      "mouthCues": 5
+    },
+    {
+      "key": "word-temperature",
+      "duration": 1.04,
+      "bytes": 17709,
+      "mouthCues": 9
+    },
+    {
+      "key": "word-upon",
+      "duration": 1.04,
+      "bytes": 17709,
+      "mouthCues": 7
+    }
+  ],
+  "contextExamples": {
+    "word-pool": "Lazy afternoons by a pool,",
+    "word-crop": "Farmers work to harvest crops,"
+  }
+}

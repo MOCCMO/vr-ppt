@@ -1,7 +1,7 @@
 {
-  "name": "season-quest-classroom",
+  "name": "seasons-judy-classroom",
   "private": true,
-  "version": "1.0.0",
+  "version": "3.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",

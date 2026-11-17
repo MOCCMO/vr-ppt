@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-17T09:27:24.772Z",
+  "base": "http://127.0.0.1:5173/",
+  "browser": "157.0.8103.79",
+  "source": "11.17 seasons-1.pptx",
+  "sourceSha256": "8a288a90411da894359cb80c9a8d361f669f32d00e5ef7816eeba1fad9c75e26",
+  "status": "passed",
+  "results": [
+    {
+      "name": "Responsive 1440×900",
+      "status": "pass",
+      "detail": "Home, lesson, media, cloze and recording without page overflow"
+    },
+    {
+      "name": "Responsive 1024×768",
+      "status": "pass",
+      "detail": "Home, lesson, media, cloze and recording without page overflow"
+    },
+    {
+      "name": "Responsive 768×1024",
+      "status": "pass",
+      "detail": "Home, lesson, media, cloze and recording without page overflow"
+    },
+    {
+      "name": "Responsive 390×844",
+      "status": "pass",
+      "detail": "Home, lesson, media, cloze and recording without page overflow"
+    },
+    {
+      "name": "Responsive 375×812",
+      "status": "pass",
+      "detail": "Home, lesson, media, cloze and recording without page overflow"
+    },
+    {
+      "name": "Mobile slide enlargement",
+      "status": "pass",
+      "detail": "Source slide enlarged inside horizontal view; page itself does not overflow"
+    },
+    {
+      "name": "Damaged saved progress",
+      "status": "pass",
+      "detail": "Malformed saved data falls back to an operable lesson"
+    },
+    {
+      "name": "Browser health",
+      "status": "pass",
+      "detail": "No uncaught page errors or HTTP failures"
+    }
+  ],
+  "errors": [],
+  "failedRequests": []
+}
