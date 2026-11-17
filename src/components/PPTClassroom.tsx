@@ -5,6 +5,7 @@ import { SEASONS, SLIDE_TITLES } from '../curriculum';
 import { asset } from '../lib';
 import type { AudioController, SeasonId } from '../types';
 import JudyGuide from './JudyGuide';
+import CoverPatch from './CoverPatch';
 
 export default function PPTClassroom({ page, step, onStep, onPage, onHome, onNext, onPrevious, onContents, audio, sound, follow, onFollow, focused, onFocus, onActivity, onExplore }: {
   page: number; step: number; onStep: (value: number) => void; onPage: (page: number) => void; onHome: () => void; onNext: () => void; onPrevious: () => void;
@@ -37,6 +38,7 @@ export default function PPTClassroom({ page, step, onStep, onPage, onHome, onNex
         <div className="ppt-screen-top"><span><i />{isMap ? 'THE SEASON MAP' : 'THE ORIGINAL PRESENTATION'}</span><button onClick={onFocus} aria-label={focused ? '退出课件专注模式' : '放大课件专注模式'}><Focus size={15} />{focused ? '显示朱迪' : '放大课件'}</button></div>
         <div ref={frameRef} className={`ppt-screen ${laser ? 'laser-enabled' : ''}`} onPointerMove={event => { if (!laser) return; const bounds = event.currentTarget.getBoundingClientRect(); setPointer({ x: (event.clientX - bounds.left) / bounds.width * 100, y: (event.clientY - bounds.top) / bounds.height * 100 }); }} onPointerLeave={() => setPointer(null)}>
           <img className="ppt-frame" src={asset(key)} alt={`原课件第 ${page} 页：${SLIDE_TITLES[page - 1]}，第 ${step + 1} 个画面，共 ${meta.frames.length} 个画面`} onLoad={() => setImageError(false)} onError={() => setImageError(true)} draggable={false} />
+          {page === 1 && <CoverPatch />}
           <button className="ppt-click-layer" aria-label="点击课件显示下一步" onClick={() => { if (!laser) onNext(); }} />
           {meta.mapHotspots.map(h => <button key={h.season} className={`ppt-map-hotspot ${h.season === currentSeason ? 'is-next' : ''}`} style={{ left: `${h.x}%`, top: `${h.y}%`, width: `${h.w}%`, height: `${h.h}%` }} onClick={() => onPage(SEASONS.find(s => s.id === h.season)!.pages[0])} aria-label={`从地图进入 ${h.season}`}><span>进入 {SEASONS.find(s => s.id === h.season)!.name}<ArrowRight size={12} /></span></button>)}
           {rect && videoVisible && !video && <button className="ppt-video-play" style={{ left: `${rect.x + rect.w / 2}%`, top: `${rect.y + rect.h / 2}%` }} onClick={() => { audio.stop(); setVideo(true); }} aria-label="播放课件中的原视频"><Play size={24} fill="currentColor" /></button>}
