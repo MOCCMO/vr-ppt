@@ -60,7 +60,7 @@ TEST_URL=http://127.0.0.1:8767/ node scripts/verify-browser.cjs delivery
 
 ## 发布状态
 
-2026-11-17 发布记录。3.0.0 应用代码版本 `c62b1a1`；当前 3.0.1 答案显示修复代码为 `fc13c63`。下方原始验收文件对应 3.0.0，本次补充验收位于末节。
+2026-11-17 发布记录。3.0.0 应用代码版本 `c62b1a1`；3.0.1 答案显示修复代码为 `fc13c63`，3.0.2 封面遮盖代码为 `86de974`。下方原始验收文件对应 3.0.0，本次补充验收位于末节。
 
 - GitHub：[MOCCMO/vr-ppt](https://github.com/MOCCMO/vr-ppt)，`main` 已同步。
 - Vercel：[备用入口](https://vr-ppt-theta.vercel.app/)，沿用 `vr-ppt` 项目；本版首次生产部署 `dpl_8sqCMcpb4C5b3bKztAPWr9tnUSJw` 为 READY；后续文档提交会触发同一成品的自动部署。
@@ -110,3 +110,5 @@ Windows v3.0.1 包为 54,698,591 字节，313 个文件，274 份网页资源逐
 本地验证：构建通过；首页、课堂、目录、专注模式、390px 手机和 1366×768 投影布局通过；遮盖位置可继续点击翻页，逐步答案、朱迪模型与语音、两段原视频正常。268 份原始网页素材与 3.0.1 逐字节一致，原 PPT 哈希一致。课堂截图覆盖区域外像素一致，其他截图的小幅边缘渲染差异单独记录。证据：`../.work/cover-mask-v3.0.2/local-acceptance.json`、`local-pixel-check.json`。
 
 本版 Windows 文件夹和压缩包另命名为 v3.0.2，上版交付件保留。Windows 实机仍需赛前彩排。
+
+发布与交付确认：GitHub main 已同步 `86de974`；Vercel 生产部署 `dpl_98AGMFQbNWC7PRZri9FVTeBPVzmK` 为 READY；CloudBase 274/274 文件上传并校验通过。两个线上入口及断网离线包均实际验证封面三处显示、不同尺寸、遮盖处点击翻页、答案逐步显示、模型、讲解与两段原视频。入口 HTML、脚本、样式与离线构建逐字节一致。新版 ZIP 为 54,698,905 字节、313 个文件，完整性及 274 份网页文件一致性通过；证据位于同目录 `cloudbase-acceptance.json`、`vercel-acceptance.json`、`offline-acceptance.json`、`live-build-match.json`、`package-integrity.json`。本次两项修改（答案逐步显示、封面同色遮盖）均已完成。
