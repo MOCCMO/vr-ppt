@@ -48,7 +48,6 @@ export default function PPTClassroom({ page, step, onStep, onPage, onHome, onNex
         <div className="ppt-context-tools">
           <button className={laser ? 'is-selected' : ''} aria-pressed={laser} onClick={() => { setLaser(v => !v); setPointer(null); }}><MousePointer2 size={14} />激光笔</button>
           <button onClick={() => onStep(0)} disabled={step === 0}><RotateCcw size={14} />重放本页</button>
-          {step < meta.frames.length - 1 && <button onClick={() => onStep(meta.frames.length - 1)}><Check size={14} />显示完整页</button>}
           {currentSeason && !isMap && <button onClick={() => audio.play(currentSeason)}>{audio.playing === currentSeason ? <Pause size={14} /> : <Headphones size={14} />}听本节诗歌</button>}
           {rect && <button onClick={() => { audio.stop(); if (!video) onStep(Math.max(step, meta.videoFrom ?? 0)); setVideo(v => !v); }}><Film size={14} />{video ? '收起视频' : '播放原视频'}</button>}
           {page >= 16 && page <= 19 && <button className="context-primary" onClick={() => onActivity(page === 16 ? 0 : page === 17 ? 1 : 2)}>{page >= 18 ? <Mic size={14} /> : <Play size={14} />}{page === 16 ? '听读词汇' : page === 17 ? '完成填空' : '录制我的导览'}</button>}

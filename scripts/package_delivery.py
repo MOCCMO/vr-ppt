@@ -4,8 +4,9 @@ import json, shutil
 from zipfile import ZipFile, ZIP_DEFLATED
 base = Path(__file__).resolve().parents[1]
 source = base / 'dist'
-destination = base.parent / 'Seasons_朱迪互动课件'
-archive = base.parent / 'Seasons_朱迪3D互动课件_v3_20261117.zip'
+version = json.loads((base / 'package.json').read_text())['version']
+destination = base.parent / f'Seasons_朱迪互动课件_v{version}'
+archive = base.parent / f'Seasons_朱迪3D互动课件_v{version}_20261117.zip'
 if not (source / 'index.html').exists():
     raise SystemExit('Run npm run build first.')
 if destination.exists():
@@ -19,7 +20,7 @@ for item in (base / 'scripts/launcher').iterdir():
         shutil.copy2(item, destination / item.name)
 (destination / '启动课件.command').chmod(0o755)
 manifest = json.loads((base / 'src/ppt-manifest.json').read_text())
-(destination / 'lesson-delivery.json').write_text(json.dumps({'application': 'seasons-judy-classroom','version':'3.0.0','source':manifest['source'],'sourceSha256':manifest['sha256'],'slides':22,'frames':131},ensure_ascii=False,indent=2))
+(destination / 'lesson-delivery.json').write_text(json.dumps({'application': 'seasons-judy-classroom','version':version,'source':manifest['source'],'sourceSha256':manifest['sha256'],'slides':22,'frames':131},ensure_ascii=False,indent=2))
 (destination / '使用说明.txt').write_text('''Seasons of the year · 朱迪的四季课堂
 
 本版以 11.17 seasons-1.pptx 为准，共 22 页。
@@ -35,7 +36,7 @@ manifest = json.loads((base / 'src/ppt-manifest.json').read_text())
 点击朱迪或「听朱迪讲这页」播放英语讲解；EN/中 切换提示文字。
 勾选「翻页时自动讲解」后，朱迪会跟随翻页。
 春、秋课堂保留原课件短片；第 16–19 页可听词汇、填空和录音。
-录音只保存在当前页面，请及时下载。文字稿和进度保存在本浏览器。
+录音只保存在当前页面，请及时下载。文字稿和已浏览记录保存在本浏览器。每次进入或刷新题目页，答案从未揭晓状态开始。
 手机上可点「放大课件」，横向滑动查看。
 
 展示方式：保留原课件版面与对象显现/退出顺序；飞入、旋转等动作简化为逐步展示。
