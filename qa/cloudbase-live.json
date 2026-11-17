@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "platformNotice": true,
+  "date": "2026-11-17T09:41:53.644Z",
+  "base": "https://season-quest-d1g08nncm027cf211-1465578399.tcloudbaseapp.com/",
+  "browser": "157.0.8103.79",
+  "checks": [
+    "Correct title and season order",
+    "Full-body model loaded",
+    "Narration time and phonetic mouth movement",
+    "Both source videos played",
+    "Pool and crop source examples",
+    "390px no horizontal overflow"
+  ],
+  "errors": [],
+  "failures": [],
+  "clips": [
+    {
+      "url": "https://season-quest-d1g08nncm027cf211-1465578399.tcloudbaseapp.com/audio/judy-en/judy-05.mp3",
+      "status": 200
+    },
+    {
+      "url": "https://season-quest-d1g08nncm027cf211-1465578399.tcloudbaseapp.com/audio/judy-en/word-pool.mp3",
+      "status": 200
+    },
+    {
+      "url": "https://season-quest-d1g08nncm027cf211-1465578399.tcloudbaseapp.com/audio/judy-en/word-crop.mp3",
+      "status": 200
+    }
+  ]
+}

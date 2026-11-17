@@ -1,6 +1,6 @@
 # Seasons of the year · 朱迪的四季课堂
 
-当前版本：3.0.0，2026-11-17。本地成品及交付包已通过验收，正在同步 GitHub、Vercel 与 CloudBase。
+当前版本：3.0.0，2026-11-17。本地成品、交付包及两个线上入口已通过验收，GitHub、Vercel 与 CloudBase 均已更新。
 
 ## 唯一课件依据
 
@@ -59,11 +59,25 @@ TEST_URL=http://127.0.0.1:8767/ node scripts/verify-browser.cjs delivery
 
 ## 发布状态
 
-用户已授权更新 GitHub、Vercel、CloudBase，并在国内入口验证后通过邮件发送链接。
+2026-11-17 发布完成。应用代码版本 `c62b1a1`；后续提交只补充验收及发布记录。
 
-- GitHub：`MOCCMO/vr-ppt`，等待同步本版。
-- Vercel：现有 `vr-ppt` 项目，入口 `https://vr-ppt-theta.vercel.app`，等待更新。
-- CloudBase：现有体验版 `season-quest-d1g08nncm027cf211`（上海），静态托管 Online，等待更新。未新购套餐。
+- GitHub：[MOCCMO/vr-ppt](https://github.com/MOCCMO/vr-ppt)，`main` 已同步。
+- Vercel：[备用入口](https://vr-ppt-theta.vercel.app/)，沿用 `vr-ppt` 项目；生产部署 `dpl_8sqCMcpb4C5b3bKztAPWr9tnUSJw` 为 READY。
+- CloudBase：[国内入口](https://season-quest-d1g08nncm027cf211-1465578399.tcloudbaseapp.com/)，沿用上海体验环境 `season-quest-d1g08nncm027cf211`；274 个文件上传成功，发布一致性校验通过。旧课堂的两份入口脚本/样式已撤下，平台认证目录保留。
+- 邮件：国内链接、首次访问说明和备用入口已发送至用户指定学习邮箱，发送服务已返回 SENT。
 - Colab：两个临时任务均已结束；余额由 199.76 降至 198.34，当前无运行任务，无充值。
 
-完成条件：三处同步同一成品，在线核实原课件、3D 模型、英语音频与原视频，并发送国内入口。
+CloudBase 使用体验环境的默认测试域名，首次浏览器访问需在腾讯云提示页倒计时结束后点击「确定访问」。这是平台的默认域名机制，参见[官方说明](https://docs.cloudbase.net/service/alias)。长期对外使用应配置自己的域名；本次没有新购套餐或域名。
+
+两个线上入口均实际验证了季节入口、3D 模型、英语讲解与口型、两段原视频、词汇原文例句和 390px 手机布局。CloudBase 首页、模型、声音、原视频和课件画面抽样逐字节匹配本地编译文件；全部文件另经上传一致性校验。证据：`qa/cloudbase-live.json`、`qa/vercel-live.json`、`qa/cloudbase-asset-check.json`。首次腾讯云提示页的预期 404 已单独记录，不计作课件资源失败。
+
+CloudBase 后续更新命令：
+
+```sh
+npm run build
+tcb hosting deploy dist -e season-quest-d1g08nncm027cf211 --safe --verify
+```
+
+保持根目录参数省略：CLI 3.9.2 的 `--verify` 在显式 `/` 路径下会产生前导斜杠匹配错误。不要对根目录使用 `--prune`，避免清除平台的认证页面。发布当天，本机代理线路影响腾讯云资源连接，通过仅针对本次进程的直连路由完成上传与浏览器验收，未改动系统代理或证书校验。
+
+完成条件已满足：三处同步同一成品，两个线上入口实测通过，国内地址已通过邮件发送。剩余边界：尚未进行 Safari、手机实机、真实麦克风和 VR 头显验收。

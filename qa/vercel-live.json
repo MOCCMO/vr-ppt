@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "date": "2026-11-17T09:39:01.695Z",
+  "base": "https://vr-ppt-theta.vercel.app/",
+  "browser": "157.0.8103.79",
+  "checks": [
+    "Correct title and season order",
+    "Full-body model loaded",
+    "Narration time and phonetic mouth movement",
+    "Both source videos played",
+    "Pool and crop source examples",
+    "390px no horizontal overflow"
+  ],
+  "errors": [],
+  "failures": [],
+  "clips": [
+    {
+      "url": "https://vr-ppt-theta.vercel.app/audio/judy-en/judy-05.mp3",
+      "status": 206
+    },
+    {
+      "url": "https://vr-ppt-theta.vercel.app/audio/judy-en/word-pool.mp3",
+      "status": 206
+    },
+    {
+      "url": "https://vr-ppt-theta.vercel.app/audio/judy-en/word-crop.mp3",
+      "status": 206
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "asset": "index.html",
+    "httpStatus": 200,
+    "bytes": 750,
+    "matchesBuild": true
+  },
+  {
+    "asset": "models/judy/judy-classroom.glb",
+    "httpStatus": 200,
+    "bytes": 7312688,
+    "matchesBuild": true
+  },
+  {
+    "asset": "audio/judy-en/judy-01.mp3",
+    "httpStatus": 200,
+    "bytes": 233517,
+    "matchesBuild": true
+  },
+  {
+    "asset": "audio/judy-en/word-pool.mp3",
+    "httpStatus": 200,
+    "bytes": 26541,
+    "matchesBuild": true
+  },
+  {
+    "asset": "ppt-frames/05-00.webp",
+    "httpStatus": 200,
+    "bytes": 186058,
+    "matchesBuild": true
+  },
+  {
+    "asset": "media/spring.mp4",
+    "httpStatus": 200,
+    "bytes": 1462297,
+    "matchesBuild": true
+  },
+  {
+    "asset": "media/autumn.mp4",
+    "httpStatus": 200,
+    "bytes": 1813216,
+    "matchesBuild": true
+  }
+]
